@@ -1,0 +1,478 @@
+.body {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .29), rgba(0, 0, 0, .29)), url('../images/gameofthrones-1518775009501-4042-compressor.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .29), rgba(0, 0, 0, .29)), url('../images/gameofthrones-1518775009501-4042-compressor.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  font-family: Karla, sans-serif;
+}
+
+.div-block {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  width: auto;
+  padding-top: 48px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.link-block {
+  position: absolute;
+}
+
+.link-block.w--current {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.button {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #8fe3d9;
+  font-family: 'Open Sans', sans-serif;
+  color: #161515;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.made-by {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block {
+  margin-right: 10px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  color: #dadada;
+  font-weight: 600;
+}
+
+.twitter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.div-block-7 {
+  width: 50px;
+  height: 50px;
+  margin-right: 13px;
+  border-radius: 50%;
+  background-image: url('../images/twitter-prof.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-block-2 {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.div-block-8 {
+  position: relative;
+  z-index: 2;
+}
+
+.button-2 {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.div-block-9 {
+  position: absolute;
+  z-index: 4;
+  display: none;
+  overflow: auto;
+  width: 500px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+.html-embed {
+  position: static;
+  top: 20px;
+  overflow: auto;
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-block-11 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 85%;
+  -webkit-flex: 85%;
+  -ms-flex: 85%;
+  flex: 85%;
+}
+
+.image {
+  width: 100px;
+}
+
+.div-block-13 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.load-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.logo {
+  position: absolute;
+}
+
+.logo.w--current {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.bagis {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #8fe3d9;
+  font-family: 'Open Sans', sans-serif;
+  color: #161515;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.chat {
+  position: relative;
+  z-index: 2;
+}
+
+.test {
+  position: absolute;
+  z-index: 4;
+  display: block;
+  overflow: auto;
+  width: 500px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+.selam {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.ogrendik {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.florida {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.gold {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.mumkun {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.times {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.type {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #1a1919;
+  font-weight: 700;
+}
+
+.coz {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.profil-pic {
+  width: 50px;
+  height: 50px;
+  margin-right: 13px;
+  border-radius: 50%;
+  background-image: url('../images/twitter-prof.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+  .div-block {
+    padding-top: 50px;
+  }
+  .button {
+    top: 30px;
+  }
+  .image {
+    width: 90px;
+  }
+  .bagis {
+    top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    padding: 6px 20px;
+    font-size: 13px;
+  }
+  .div-block-9 {
+    display: block;
+    width: 100%;
+  }
+  .image {
+    width: 80px;
+  }
+  .bagis {
+    padding: 6px 20px;
+    font-size: 13px;
+  }
+  .test {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .made-by {
+    right: 20px;
+    bottom: 10px;
+  }
+  .text-block-2 {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .div-block-9 {
+    width: 95%;
+    padding-top: 100px;
+  }
+  .html-embed {
+    padding-top: 50px;
+  }
+  .div-block-11 {
+    padding-left: 9px;
+  }
+  .image {
+    width: 60px;
+  }
+  .test {
+    width: 95%;
+    padding-top: 100px;
+  }
+  .selam {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .ogrendik {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .florida {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .gold {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .mumkun {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .times {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+  .type {
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 9px;
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+}
+
